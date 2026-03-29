@@ -31,6 +31,7 @@ bld/
 #wwwroot/
 
 .vs/
+.vs/*
 obj/
 bin/
 *.user
