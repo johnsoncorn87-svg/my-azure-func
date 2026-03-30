@@ -14,6 +14,10 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
          dotnet-version: '8.0.x'
+      
+      - name: Run Test
+        # Cette commande va scanner tous les projets de test de la solution
+        run: dotnet test --no-restore --verbosity normal
 
       - name: Build Project
         run: dotnet build ./FunctionApp1/FunctionApp1.csproj --configuration Release   
