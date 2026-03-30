@@ -6,7 +6,7 @@ namespace FunctionApp1.Tests
         public void TestAddition()
         {
             // Un test simple pour vérifier que le pipeline fonctionne
-            Assert.Equal(5, 2 + 2);
+            Assert.Equal(4, 2 + 2);
         }
     }
 }
