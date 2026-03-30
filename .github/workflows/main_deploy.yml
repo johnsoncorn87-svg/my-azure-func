@@ -17,7 +17,7 @@ jobs:
       
       - name: Run Test
         # Cette commande va scanner tous les projets de test de la solution
-        run: dotnet test ./FunctionApp1.Tests/FunctionApp1.Tests.csproj --no-restore
+        run: dotnet test ./FunctionApp1.Tests/FunctionApp1.Tests.csproj
 
       - name: Build Project
         run: dotnet build ./FunctionApp1/FunctionApp1.csproj --configuration Release   
